@@ -10,6 +10,7 @@ public:
 	AirplaneNodo();
 	AirplaneNodo(Airplane* airplane);
 	virtual string toString();
+	int compareTo(int n);
 	Airplane* getAirplane();
 	int getID();
 };
